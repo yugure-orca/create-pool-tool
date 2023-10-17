@@ -41,6 +41,8 @@ tx: 5k733gttt65s2vAuABVhVcyGMkFDKRU3MQLhmxZ1crxCaxxXn2PsucntLN6rxqz3VeAv1jPTxfZo
 whirlpoolsConfig address: 8raEdn1tNEft7MnbMQJ1ktBqTKmHLZu7NJ7teoBkEPKm
 ```
 - WhirlpoolsConfig (8raEdn1tNEft7MnbMQJ1ktBqTKmHLZu7NJ7teoBkEPKm) have been created.
+- All authority is the owner of the wallet.
+- The default protocol fee rate is 3% (300 / 10,000).
 
 ### create FeeTier account
 ```
@@ -60,7 +62,8 @@ tx: gomSUyS88MbjVFTfTw2JPgQumVGttDYgm2Si7kqR5JYaqCgLA1fnSycRhjdAxXdfUWbpK1FZJQxK
 feeTier address: BYUiw9LdPsn5n8qHQhL7SNphubKtLXKwQ4tsSioP6nTj
 ```
 - WhirlpoolsConfig(8raEdn1tNEft7MnbMQJ1ktBqTKmHLZu7NJ7teoBkEPKm) is used.
-- FeeTier(BYUiw9LdPsn5n8qHQhL7SNphubKtLXKwQ4tsSioP6nTj) for tickSpacing 64 have been created
+- FeeTier(BYUiw9LdPsn5n8qHQhL7SNphubKtLXKwQ4tsSioP6nTj) for tickSpacing 64 have been created.
+- The default fee rate is 0.3% (3,000 / 1,000,000)
 
 ### create Whirlpool account
 ```
@@ -146,6 +149,13 @@ initialized tickArray address: 48W97WVPhfbLWHBP4Z5828GAWzgvmbr9YngkNbGmR7zr
 - TickArray(48W97WVPhfbLWHBP4Z5828GAWzgvmbr9YngkNbGmR7zr) have been created.
 
 ## see also
-you can clone arbitrary whirlpools in the mainnet-beta with Account microscope.
+### tokens for devnet
+you can airdrop some tokens for devnet here:
+
+https://everlastingsong.github.io/nebula/
+
+### Account microscope
+you can clone arbitrary whirlpools and token(mint) in the mainnet-beta with Account microscope.
 
 https://github.com/everlastingsong/account-microscope
+
